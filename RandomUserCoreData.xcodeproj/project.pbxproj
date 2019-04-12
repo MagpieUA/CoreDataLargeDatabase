@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		651E934F2260DD3A00ACF1D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E934E2260DD3A00ACF1D7 /* AppDelegate.swift */; };
-		651E93512260DD3A00ACF1D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E93502260DD3A00ACF1D7 /* ViewController.swift */; };
 		651E93542260DD3A00ACF1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651E93522260DD3A00ACF1D7 /* Main.storyboard */; };
 		651E93572260DD3B00ACF1D7 /* RandomUserCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 651E93552260DD3B00ACF1D7 /* RandomUserCoreData.xcdatamodeld */; };
 		651E93592260DD3C00ACF1D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651E93582260DD3C00ACF1D7 /* Assets.xcassets */; };
 		651E935C2260DD3C00ACF1D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651E935A2260DD3C00ACF1D7 /* LaunchScreen.storyboard */; };
+		651E93642260E58600ACF1D7 /* RandomUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E93632260E58600ACF1D7 /* RandomUserTableViewController.swift */; };
+		651E93682260E60B00ACF1D7 /* RandomUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E93662260E60B00ACF1D7 /* RandomUserTableViewCell.swift */; };
+		651E93692260E60B00ACF1D7 /* RandomUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651E93672260E60B00ACF1D7 /* RandomUserTableViewCell.xib */; };
+		651E936F2260EBF200ACF1D7 /* UITableView+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E936E2260EBF200ACF1D7 /* UITableView+Xib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		651E934B2260DD3A00ACF1D7 /* RandomUserCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUserCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651E934E2260DD3A00ACF1D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		651E93502260DD3A00ACF1D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		651E93532260DD3A00ACF1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		651E93562260DD3B00ACF1D7 /* RandomUserCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RandomUserCoreData.xcdatamodel; sourceTree = "<group>"; };
 		651E93582260DD3C00ACF1D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		651E935B2260DD3C00ACF1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		651E935D2260DD3C00ACF1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651E93632260E58600ACF1D7 /* RandomUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserTableViewController.swift; sourceTree = "<group>"; };
+		651E93662260E60B00ACF1D7 /* RandomUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserTableViewCell.swift; sourceTree = "<group>"; };
+		651E93672260E60B00ACF1D7 /* RandomUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandomUserTableViewCell.xib; sourceTree = "<group>"; };
+		651E936E2260EBF200ACF1D7 /* UITableView+Xib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Xib.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,10 @@
 		651E934D2260DD3A00ACF1D7 /* RandomUserCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				651E936D2260EBC400ACF1D7 /* Extensions */,
+				651E936A2260E68900ACF1D7 /* Controllers */,
+				651E93652260E5E200ACF1D7 /* Views */,
 				651E934E2260DD3A00ACF1D7 /* AppDelegate.swift */,
-				651E93502260DD3A00ACF1D7 /* ViewController.swift */,
 				651E93522260DD3A00ACF1D7 /* Main.storyboard */,
 				651E93582260DD3C00ACF1D7 /* Assets.xcassets */,
 				651E935A2260DD3C00ACF1D7 /* LaunchScreen.storyboard */,
@@ -65,6 +73,31 @@
 				651E93552260DD3B00ACF1D7 /* RandomUserCoreData.xcdatamodeld */,
 			);
 			path = RandomUserCoreData;
+			sourceTree = "<group>";
+		};
+		651E93652260E5E200ACF1D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				651E93662260E60B00ACF1D7 /* RandomUserTableViewCell.swift */,
+				651E93672260E60B00ACF1D7 /* RandomUserTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		651E936A2260E68900ACF1D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				651E93632260E58600ACF1D7 /* RandomUserTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		651E936D2260EBC400ACF1D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				651E936E2260EBF200ACF1D7 /* UITableView+Xib.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +161,7 @@
 				651E935C2260DD3C00ACF1D7 /* LaunchScreen.storyboard in Resources */,
 				651E93592260DD3C00ACF1D7 /* Assets.xcassets in Resources */,
 				651E93542260DD3A00ACF1D7 /* Main.storyboard in Resources */,
+				651E93692260E60B00ACF1D7 /* RandomUserTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				651E93572260DD3B00ACF1D7 /* RandomUserCoreData.xcdatamodeld in Sources */,
-				651E93512260DD3A00ACF1D7 /* ViewController.swift in Sources */,
+				651E93642260E58600ACF1D7 /* RandomUserTableViewController.swift in Sources */,
+				651E93682260E60B00ACF1D7 /* RandomUserTableViewCell.swift in Sources */,
 				651E934F2260DD3A00ACF1D7 /* AppDelegate.swift in Sources */,
+				651E936F2260EBF200ACF1D7 /* UITableView+Xib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
