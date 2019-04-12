@@ -16,6 +16,7 @@
 		651E93682260E60B00ACF1D7 /* RandomUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E93662260E60B00ACF1D7 /* RandomUserTableViewCell.swift */; };
 		651E93692260E60B00ACF1D7 /* RandomUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651E93672260E60B00ACF1D7 /* RandomUserTableViewCell.xib */; };
 		651E936F2260EBF200ACF1D7 /* UITableView+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E936E2260EBF200ACF1D7 /* UITableView+Xib.swift */; };
+		651E93732260F3EC00ACF1D7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 651E93722260F3EC00ACF1D7 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		651E93662260E60B00ACF1D7 /* RandomUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserTableViewCell.swift; sourceTree = "<group>"; };
 		651E93672260E60B00ACF1D7 /* RandomUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandomUserTableViewCell.xib; sourceTree = "<group>"; };
 		651E936E2260EBF200ACF1D7 /* UITableView+Xib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Xib.swift"; sourceTree = "<group>"; };
+		651E93722260F3EC00ACF1D7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		651E93422260DD3A00ACF1D7 = {
 			isa = PBXGroup;
 			children = (
+				651E93722260F3EC00ACF1D7 /* .gitignore */,
 				651E934D2260DD3A00ACF1D7 /* RandomUserCoreData */,
 				651E934C2260DD3A00ACF1D7 /* Products */,
 			);
@@ -158,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651E93732260F3EC00ACF1D7 /* .gitignore in Resources */,
 				651E935C2260DD3C00ACF1D7 /* LaunchScreen.storyboard in Resources */,
 				651E93592260DD3C00ACF1D7 /* Assets.xcassets in Resources */,
 				651E93542260DD3A00ACF1D7 /* Main.storyboard in Resources */,
