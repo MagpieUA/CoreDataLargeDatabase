@@ -29,6 +29,7 @@
 		6529404922661F1B00ACD036 /* CDLDLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529404822661F1B00ACD036 /* CDLDLocation.swift */; };
 		6529404B2266200200ACD036 /* CDLDRegistered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529404A2266200200ACD036 /* CDLDRegistered.swift */; };
 		657941992266264C00A3AA87 /* CDLDResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657941982266264C00A3AA87 /* CDLDResults.swift */; };
+		65FA99A6226636D00093B215 /* CDLDUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FA99A5226636D00093B215 /* CDLDUserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		6529404822661F1B00ACD036 /* CDLDLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDLocation.swift; sourceTree = "<group>"; };
 		6529404A2266200200ACD036 /* CDLDRegistered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDRegistered.swift; sourceTree = "<group>"; };
 		657941982266264C00A3AA87 /* CDLDResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDResults.swift; sourceTree = "<group>"; };
+		65FA99A5226636D00093B215 /* CDLDUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDUserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,14 @@
 				6518951522662F8B0070788D /* CDLD.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		651895182266369B0070788D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				65FA99A5226636D00093B215 /* CDLDUserViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		651E93422260DD3A00ACF1D7 = {
@@ -97,6 +107,7 @@
 		651E934D2260DD3A00ACF1D7 /* RandomUserCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				651895182266369B0070788D /* ViewModels */,
 				6518951422662F280070788D /* CoreData */,
 				6529403722661C6200ACD036 /* Models */,
 				651E936D2260EBC400ACF1D7 /* Extensions */,
@@ -228,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FA99A6226636D00093B215 /* CDLDUserViewModel.swift in Sources */,
 				6529404122661E2400ACD036 /* CDLDDayOfBirth.swift in Sources */,
 				6529404B2266200200ACD036 /* CDLDRegistered.swift in Sources */,
 				6529403B22661D5000ACD036 /* CDLDCoordinates.swift in Sources */,

@@ -13,7 +13,7 @@ class RandomUserTableViewCell: UITableViewCell, Reusable {
     @IBOutlet weak var thumbnailImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
-    func configureWithUser(user: CDLDUser) {
-        nameLabel.text = user.name?.first
+    func configureWithUserViewModel(user: CDLDUserViewModel) {
+        nameLabel.text = user.fullName
     }
 }

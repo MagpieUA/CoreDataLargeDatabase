@@ -11,7 +11,7 @@ import CoreData
 
 class RandomUserTableViewController: UITableViewController {
     
-    var users: [CDLDUser] = [];
+    var users: [CDLDUserViewModel] = [];
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,7 @@ class RandomUserTableViewController: UITableViewController {
             do {
                 let decoder = JSONDecoder()
                 let parsedData = try decoder.decode(CDLDResults.self, from: data)
-                self?.users = parsedData.results ?? []
+                self?.users = parsedData.results.map ({ return CDLDUserViewModel(user: $0)})
                 DispatchQueue.main.async {
                     self?.tableView.reloadData()
                 }
@@ -45,7 +45,7 @@ class RandomUserTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeReusableCell(indexPath: indexPath) as RandomUserTableViewCell
-        cell.configureWithUser(user: users[indexPath.row])
+        cell.configureWithUserViewModel(user: users[indexPath.row])
         return cell
     }
     
