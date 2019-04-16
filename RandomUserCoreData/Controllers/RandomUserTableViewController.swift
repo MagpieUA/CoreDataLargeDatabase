@@ -12,6 +12,7 @@ class RandomUserTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.tableFooterView = UIView()
         registerXibs()
     }
     
@@ -19,6 +20,8 @@ class RandomUserTableViewController: UITableViewController {
         tableView.registerNib(RandomUserTableViewCell.self)
     }
     
+    // MARK: UITableViewDatasource
+
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
