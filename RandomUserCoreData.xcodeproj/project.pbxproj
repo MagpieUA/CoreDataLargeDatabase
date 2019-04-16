@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6518951722662F8B0070788D /* CDLD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6518951522662F8B0070788D /* CDLD.xcdatamodeld */; };
 		651E934F2260DD3A00ACF1D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E934E2260DD3A00ACF1D7 /* AppDelegate.swift */; };
 		651E93542260DD3A00ACF1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651E93522260DD3A00ACF1D7 /* Main.storyboard */; };
 		651E93572260DD3B00ACF1D7 /* RandomUserCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 651E93552260DD3B00ACF1D7 /* RandomUserCoreData.xcdatamodeld */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6518951622662F8B0070788D /* CDLD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDLD.xcdatamodel; sourceTree = "<group>"; };
 		651E934B2260DD3A00ACF1D7 /* RandomUserCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUserCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651E934E2260DD3A00ACF1D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		651E93532260DD3A00ACF1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6518951422662F280070788D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6518951522662F8B0070788D /* CDLD.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		651E93422260DD3A00ACF1D7 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		651E934D2260DD3A00ACF1D7 /* RandomUserCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				6518951422662F280070788D /* CoreData */,
 				6529403722661C6200ACD036 /* Models */,
 				651E936D2260EBC400ACF1D7 /* Extensions */,
 				651E936A2260E68900ACF1D7 /* Controllers */,
@@ -222,6 +233,7 @@
 				6529403B22661D5000ACD036 /* CDLDCoordinates.swift in Sources */,
 				651E93572260DD3B00ACF1D7 /* RandomUserCoreData.xcdatamodeld in Sources */,
 				651E93642260E58600ACF1D7 /* RandomUserTableViewController.swift in Sources */,
+				6518951722662F8B0070788D /* CDLD.xcdatamodeld in Sources */,
 				657941992266264C00A3AA87 /* CDLDResults.swift in Sources */,
 				651E93682260E60B00ACF1D7 /* RandomUserTableViewCell.swift in Sources */,
 				6529403F22661DC700ACD036 /* CDLDLogin.swift in Sources */,
@@ -434,6 +446,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		6518951522662F8B0070788D /* CDLD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6518951622662F8B0070788D /* CDLD.xcdatamodel */,
+			);
+			currentVersion = 6518951622662F8B0070788D /* CDLD.xcdatamodel */;
+			path = CDLD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		651E93552260DD3B00ACF1D7 /* RandomUserCoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
