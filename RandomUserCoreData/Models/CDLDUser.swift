@@ -9,15 +9,15 @@
 import Foundation
 
 struct CDLDUser: Codable {
-    var gender: String
-    var name: CDLDName
-    var location: CDLDLocation
-    var email: String
-    var login: CDLDLogin
-    var dob: CDLDDayOfBirth
-    var phone: String
-    var cell: String
-    var id: CDLDID
-    var picture: CDLDPicture
-    var nat: String
+    var gender: String?
+    var name: CDLDName?
+    var location: CDLDLocation?
+    var email: String?
+    var login: CDLDLogin?
+    var dob: CDLDDayOfBirth?
+    var phone: String?
+    var cell: String?
+    var id: CDLDID?
+    var picture: CDLDPicture?
+    var nat: String?
 }

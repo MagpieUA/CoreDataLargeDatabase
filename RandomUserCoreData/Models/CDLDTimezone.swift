@@ -9,6 +9,6 @@
 import Foundation
 
 struct CDLDTimezone: Codable {
-    var offset: String
-    var description: String
+    var offset: String?
+    var description: String?
 }

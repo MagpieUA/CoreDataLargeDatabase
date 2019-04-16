@@ -13,6 +13,17 @@ class RandomUserTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView()
+        guard let randomUserUrl = URL(string: "https://randomuser.me/api/?results=100") else { return }
+        URLSession.shared.dataTask(with: randomUserUrl) { (data, response, error) in
+            guard let data = data else { return }
+            do {
+                let decoder = JSONDecoder()
+                let parsedData = try decoder.decode(CDLDResults.self, from: data)
+                print(parsedData.results?.count ?? "Zero")
+            } catch let error {
+                print (error.localizedDescription)
+            }
+        }.resume()
         registerXibs()
     }
     

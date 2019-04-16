@@ -9,7 +9,7 @@
 import Foundation
 
 struct CDLDName: Codable {
-    var title: String
-    var first: String
-    var last: String
+    var title: String?
+    var first: String?
+    var last: String?
 }

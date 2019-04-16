@@ -9,7 +9,7 @@
 import Foundation
 
 struct CDLDPicture: Codable {
-    var large: String
-    var medium: String
-    var thumbnail: String
+    var large: String?
+    var medium: String?
+    var thumbnail: String?
 }

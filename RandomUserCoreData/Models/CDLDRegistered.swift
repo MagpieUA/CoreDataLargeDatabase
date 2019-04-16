@@ -9,6 +9,6 @@
 import Foundation
 
 struct CDLDRegistered: Codable {
-    var date: String
-    var age: String
+    var date: String?
+    var age: String?
 }

@@ -9,6 +9,6 @@
 import Foundation
 
 struct CDLDID: Codable {
-    var name: String
-    var value: String
+    var name: String?
+    var value: String?
 }

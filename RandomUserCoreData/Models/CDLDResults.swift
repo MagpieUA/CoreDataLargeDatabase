@@ -1,5 +1,5 @@
 //
-//  CDLDCoordinates.swift
+//  CDLDResults.swift
 //  RandomUserCoreData
 //
 //  Created by Mykhailo Sorokin on 4/16/19.
@@ -8,7 +8,6 @@
 
 import Foundation
 
-struct CDLDCoordinates: Codable {
-    var latitude: String?
-    var longitude: String?
+struct CDLDResults: Codable {
+    var results: [CDLDUser]?
 }
