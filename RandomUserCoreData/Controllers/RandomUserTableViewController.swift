@@ -30,13 +30,8 @@ class RandomUserTableViewController: UITableViewController {
                 print (error.localizedDescription)
             }
         }.resume()
-        registerXibs()
     }
-    
-    func registerXibs() {
-        tableView.registerNib(RandomUserTableViewCell.self)
-    }
-    
+
     // MARK: UITableViewDatasource
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -48,5 +43,12 @@ class RandomUserTableViewController: UITableViewController {
         cell.configureWithUserViewModel(user: users[indexPath.row])
         return cell
     }
-    
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let cell = sender as? RandomUserTableViewCell else { return }
+        let indexPath = tableView.indexPath(for: cell)
+        if let destinationController = segue.destination as? CDLDUserDetailsViewController, let indexPath = indexPath {
+            destinationController.user = users[indexPath.row]
+        }
+    }
 }

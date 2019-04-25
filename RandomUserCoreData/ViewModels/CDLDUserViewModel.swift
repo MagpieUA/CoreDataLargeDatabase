@@ -23,4 +23,30 @@ class CDLDUserViewModel {
         resultString.append(self.user.name?.last ?? "")
         return resultString.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines)
     }
+    
+    var email: String? {
+        return self.user.email
+    }
+    
+    var nationality: String? {
+        return self.user.nat
+    }
+    
+    var state: String? {
+        return self.user.location?.state
+    }
+    
+    var city: String? {
+        return self.user.location?.city
+    }
+    
+    var thumbnailURL: URL? {
+        guard let urlString = self.user.picture?.thumbnail else { return nil }
+        return URL(string: urlString)
+    }
+    
+    var mediumImageURL: URL? {
+        guard let urlString = self.user.picture?.large else { return nil}
+        return URL(string: urlString)
+    }
 }

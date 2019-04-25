@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FE2C65350A7BAD3978B76BD /* Pods_RandomUserCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DBCFFD26B8C03ACA949B57 /* Pods_RandomUserCoreData.framework */; };
 		6518951722662F8B0070788D /* CDLD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6518951522662F8B0070788D /* CDLD.xcdatamodeld */; };
 		651E934F2260DD3A00ACF1D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E934E2260DD3A00ACF1D7 /* AppDelegate.swift */; };
 		651E93542260DD3A00ACF1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651E93522260DD3A00ACF1D7 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		651E935C2260DD3C00ACF1D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651E935A2260DD3C00ACF1D7 /* LaunchScreen.storyboard */; };
 		651E93642260E58600ACF1D7 /* RandomUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E93632260E58600ACF1D7 /* RandomUserTableViewController.swift */; };
 		651E93682260E60B00ACF1D7 /* RandomUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E93662260E60B00ACF1D7 /* RandomUserTableViewCell.swift */; };
-		651E93692260E60B00ACF1D7 /* RandomUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651E93672260E60B00ACF1D7 /* RandomUserTableViewCell.xib */; };
 		651E936F2260EBF200ACF1D7 /* UITableView+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E936E2260EBF200ACF1D7 /* UITableView+Xib.swift */; };
 		651E93732260F3EC00ACF1D7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 651E93722260F3EC00ACF1D7 /* .gitignore */; };
 		6529403922661CF400ACD036 /* CDLDName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529403822661CF400ACD036 /* CDLDName.swift */; };
@@ -28,11 +28,13 @@
 		6529404722661EC800ACD036 /* CDLDUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529404622661EC800ACD036 /* CDLDUser.swift */; };
 		6529404922661F1B00ACD036 /* CDLDLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529404822661F1B00ACD036 /* CDLDLocation.swift */; };
 		6529404B2266200200ACD036 /* CDLDRegistered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529404A2266200200ACD036 /* CDLDRegistered.swift */; };
+		652E64052269FA3D00E14633 /* CDLDUserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652E64042269FA3D00E14633 /* CDLDUserDetailsViewController.swift */; };
 		657941992266264C00A3AA87 /* CDLDResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657941982266264C00A3AA87 /* CDLDResults.swift */; };
 		65FA99A6226636D00093B215 /* CDLDUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FA99A5226636D00093B215 /* CDLDUserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AE063C30604A65FC960735C /* Pods-RandomUserCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomUserCoreData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RandomUserCoreData/Pods-RandomUserCoreData.debug.xcconfig"; sourceTree = "<group>"; };
 		6518951622662F8B0070788D /* CDLD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDLD.xcdatamodel; sourceTree = "<group>"; };
 		651E934B2260DD3A00ACF1D7 /* RandomUserCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUserCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651E934E2260DD3A00ACF1D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +45,6 @@
 		651E935D2260DD3C00ACF1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		651E93632260E58600ACF1D7 /* RandomUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserTableViewController.swift; sourceTree = "<group>"; };
 		651E93662260E60B00ACF1D7 /* RandomUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserTableViewCell.swift; sourceTree = "<group>"; };
-		651E93672260E60B00ACF1D7 /* RandomUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandomUserTableViewCell.xib; sourceTree = "<group>"; };
 		651E936E2260EBF200ACF1D7 /* UITableView+Xib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Xib.swift"; sourceTree = "<group>"; };
 		651E93722260F3EC00ACF1D7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6529403822661CF400ACD036 /* CDLDName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDName.swift; sourceTree = "<group>"; };
@@ -56,8 +57,11 @@
 		6529404622661EC800ACD036 /* CDLDUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDUser.swift; sourceTree = "<group>"; };
 		6529404822661F1B00ACD036 /* CDLDLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDLocation.swift; sourceTree = "<group>"; };
 		6529404A2266200200ACD036 /* CDLDRegistered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDRegistered.swift; sourceTree = "<group>"; };
+		652E64042269FA3D00E14633 /* CDLDUserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDUserDetailsViewController.swift; sourceTree = "<group>"; };
 		657941982266264C00A3AA87 /* CDLDResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDResults.swift; sourceTree = "<group>"; };
 		65FA99A5226636D00093B215 /* CDLDUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDUserViewModel.swift; sourceTree = "<group>"; };
+		A2DBCFFD26B8C03ACA949B57 /* Pods_RandomUserCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomUserCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2B0141860EB67DA16CD441 /* Pods-RandomUserCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomUserCoreData.release.xcconfig"; path = "Pods/Target Support Files/Pods-RandomUserCoreData/Pods-RandomUserCoreData.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE2C65350A7BAD3978B76BD /* Pods_RandomUserCoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +98,8 @@
 				651E93722260F3EC00ACF1D7 /* .gitignore */,
 				651E934D2260DD3A00ACF1D7 /* RandomUserCoreData */,
 				651E934C2260DD3A00ACF1D7 /* Products */,
+				C111D816B0F46ECE2B020EC8 /* Pods */,
+				8676EEBD13148E0A36E0276E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				651E93662260E60B00ACF1D7 /* RandomUserTableViewCell.swift */,
-				651E93672260E60B00ACF1D7 /* RandomUserTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				651E93632260E58600ACF1D7 /* RandomUserTableViewController.swift */,
+				652E64042269FA3D00E14633 /* CDLDUserDetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -166,6 +173,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		8676EEBD13148E0A36E0276E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2DBCFFD26B8C03ACA949B57 /* Pods_RandomUserCoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C111D816B0F46ECE2B020EC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AE063C30604A65FC960735C /* Pods-RandomUserCoreData.debug.xcconfig */,
+				DF2B0141860EB67DA16CD441 /* Pods-RandomUserCoreData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 651E93602260DD3C00ACF1D7 /* Build configuration list for PBXNativeTarget "RandomUserCoreData" */;
 			buildPhases = (
+				AA460ECF49917B44D51BC53E /* [CP] Check Pods Manifest.lock */,
 				651E93472260DD3A00ACF1D7 /* Sources */,
 				651E93482260DD3A00ACF1D7 /* Frameworks */,
 				651E93492260DD3A00ACF1D7 /* Resources */,
+				76A53F9AD54FD34A801D2B3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,11 +254,57 @@
 				651E935C2260DD3C00ACF1D7 /* LaunchScreen.storyboard in Resources */,
 				651E93592260DD3C00ACF1D7 /* Assets.xcassets in Resources */,
 				651E93542260DD3A00ACF1D7 /* Main.storyboard in Resources */,
-				651E93692260E60B00ACF1D7 /* RandomUserTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76A53F9AD54FD34A801D2B3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RandomUserCoreData/Pods-RandomUserCoreData-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RandomUserCoreData/Pods-RandomUserCoreData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA460ECF49917B44D51BC53E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomUserCoreData-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		651E93472260DD3A00ACF1D7 /* Sources */ = {
@@ -251,6 +323,7 @@
 				6529403F22661DC700ACD036 /* CDLDLogin.swift in Sources */,
 				6529404322661E6900ACD036 /* CDLDID.swift in Sources */,
 				6529404922661F1B00ACD036 /* CDLDLocation.swift in Sources */,
+				652E64052269FA3D00E14633 /* CDLDUserDetailsViewController.swift in Sources */,
 				6529404722661EC800ACD036 /* CDLDUser.swift in Sources */,
 				6529404522661E9100ACD036 /* CDLDPicture.swift in Sources */,
 				6529403922661CF400ACD036 /* CDLDName.swift in Sources */,
@@ -400,6 +473,7 @@
 		};
 		651E93612260DD3C00ACF1D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE063C30604A65FC960735C /* Pods-RandomUserCoreData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -418,6 +492,7 @@
 		};
 		651E93622260DD3C00ACF1D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2B0141860EB67DA16CD441 /* Pods-RandomUserCoreData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

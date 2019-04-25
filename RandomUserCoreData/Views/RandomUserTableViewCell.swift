@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import SDWebImage
 
 class RandomUserTableViewCell: UITableViewCell, Reusable {
     
     @IBOutlet weak var thumbnailImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
-    func configureWithUserViewModel(user: CDLDUserViewModel) {
-        nameLabel.text = user.fullName
+    func configureWithUserViewModel(user: CDLDUserViewModel?) {
+        if let user = user {
+            nameLabel.text = user.fullName
+            thumbnailImageView.sd_setImage(with: user.thumbnailURL, completed: nil)
+        }
     }
 }
