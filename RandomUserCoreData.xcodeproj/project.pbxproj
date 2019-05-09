@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FE2C65350A7BAD3978B76BD /* Pods_RandomUserCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DBCFFD26B8C03ACA949B57 /* Pods_RandomUserCoreData.framework */; };
+		651741992271E070008BE67C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651741972271E070008BE67C /* User.swift */; };
 		6518951722662F8B0070788D /* CDLD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6518951522662F8B0070788D /* CDLD.xcdatamodeld */; };
 		651E934F2260DD3A00ACF1D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E934E2260DD3A00ACF1D7 /* AppDelegate.swift */; };
 		651E93542260DD3A00ACF1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651E93522260DD3A00ACF1D7 /* Main.storyboard */; };
@@ -18,16 +19,6 @@
 		651E93682260E60B00ACF1D7 /* RandomUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E93662260E60B00ACF1D7 /* RandomUserTableViewCell.swift */; };
 		651E936F2260EBF200ACF1D7 /* UITableView+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E936E2260EBF200ACF1D7 /* UITableView+Xib.swift */; };
 		651E93732260F3EC00ACF1D7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 651E93722260F3EC00ACF1D7 /* .gitignore */; };
-		6529403922661CF400ACD036 /* CDLDName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529403822661CF400ACD036 /* CDLDName.swift */; };
-		6529403B22661D5000ACD036 /* CDLDCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529403A22661D5000ACD036 /* CDLDCoordinates.swift */; };
-		6529403D22661D8300ACD036 /* CDLDTimezone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529403C22661D8300ACD036 /* CDLDTimezone.swift */; };
-		6529403F22661DC700ACD036 /* CDLDLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529403E22661DC700ACD036 /* CDLDLogin.swift */; };
-		6529404122661E2400ACD036 /* CDLDDayOfBirth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529404022661E2400ACD036 /* CDLDDayOfBirth.swift */; };
-		6529404322661E6900ACD036 /* CDLDID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529404222661E6900ACD036 /* CDLDID.swift */; };
-		6529404522661E9100ACD036 /* CDLDPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529404422661E9100ACD036 /* CDLDPicture.swift */; };
-		6529404722661EC800ACD036 /* CDLDUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529404622661EC800ACD036 /* CDLDUser.swift */; };
-		6529404922661F1B00ACD036 /* CDLDLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529404822661F1B00ACD036 /* CDLDLocation.swift */; };
-		6529404B2266200200ACD036 /* CDLDRegistered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529404A2266200200ACD036 /* CDLDRegistered.swift */; };
 		652E64052269FA3D00E14633 /* CDLDUserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652E64042269FA3D00E14633 /* CDLDUserDetailsViewController.swift */; };
 		657941992266264C00A3AA87 /* CDLDResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657941982266264C00A3AA87 /* CDLDResults.swift */; };
 		65FA99A6226636D00093B215 /* CDLDUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FA99A5226636D00093B215 /* CDLDUserViewModel.swift */; };
@@ -35,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		4AE063C30604A65FC960735C /* Pods-RandomUserCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomUserCoreData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RandomUserCoreData/Pods-RandomUserCoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		651741972271E070008BE67C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		6518951622662F8B0070788D /* CDLD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDLD.xcdatamodel; sourceTree = "<group>"; };
 		651E934B2260DD3A00ACF1D7 /* RandomUserCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUserCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651E934E2260DD3A00ACF1D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,16 +39,6 @@
 		651E93662260E60B00ACF1D7 /* RandomUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserTableViewCell.swift; sourceTree = "<group>"; };
 		651E936E2260EBF200ACF1D7 /* UITableView+Xib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Xib.swift"; sourceTree = "<group>"; };
 		651E93722260F3EC00ACF1D7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		6529403822661CF400ACD036 /* CDLDName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDName.swift; sourceTree = "<group>"; };
-		6529403A22661D5000ACD036 /* CDLDCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDCoordinates.swift; sourceTree = "<group>"; };
-		6529403C22661D8300ACD036 /* CDLDTimezone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDTimezone.swift; sourceTree = "<group>"; };
-		6529403E22661DC700ACD036 /* CDLDLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDLogin.swift; sourceTree = "<group>"; };
-		6529404022661E2400ACD036 /* CDLDDayOfBirth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDDayOfBirth.swift; sourceTree = "<group>"; };
-		6529404222661E6900ACD036 /* CDLDID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDID.swift; sourceTree = "<group>"; };
-		6529404422661E9100ACD036 /* CDLDPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDPicture.swift; sourceTree = "<group>"; };
-		6529404622661EC800ACD036 /* CDLDUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDUser.swift; sourceTree = "<group>"; };
-		6529404822661F1B00ACD036 /* CDLDLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDLocation.swift; sourceTree = "<group>"; };
-		6529404A2266200200ACD036 /* CDLDRegistered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDRegistered.swift; sourceTree = "<group>"; };
 		652E64042269FA3D00E14633 /* CDLDUserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDUserDetailsViewController.swift; sourceTree = "<group>"; };
 		657941982266264C00A3AA87 /* CDLDResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDResults.swift; sourceTree = "<group>"; };
 		65FA99A5226636D00093B215 /* CDLDUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDLDUserViewModel.swift; sourceTree = "<group>"; };
@@ -79,6 +61,7 @@
 		6518951422662F280070788D /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				651741972271E070008BE67C /* User.swift */,
 				6518951522662F8B0070788D /* CDLD.xcdatamodeld */,
 			);
 			path = CoreData;
@@ -158,16 +141,6 @@
 		6529403722661C6200ACD036 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				6529404622661EC800ACD036 /* CDLDUser.swift */,
-				6529403822661CF400ACD036 /* CDLDName.swift */,
-				6529404822661F1B00ACD036 /* CDLDLocation.swift */,
-				6529403A22661D5000ACD036 /* CDLDCoordinates.swift */,
-				6529403C22661D8300ACD036 /* CDLDTimezone.swift */,
-				6529403E22661DC700ACD036 /* CDLDLogin.swift */,
-				6529404022661E2400ACD036 /* CDLDDayOfBirth.swift */,
-				6529404222661E6900ACD036 /* CDLDID.swift */,
-				6529404422661E9100ACD036 /* CDLDPicture.swift */,
-				6529404A2266200200ACD036 /* CDLDRegistered.swift */,
 				657941982266264C00A3AA87 /* CDLDResults.swift */,
 			);
 			path = Models;
@@ -312,24 +285,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FA99A6226636D00093B215 /* CDLDUserViewModel.swift in Sources */,
-				6529404122661E2400ACD036 /* CDLDDayOfBirth.swift in Sources */,
-				6529404B2266200200ACD036 /* CDLDRegistered.swift in Sources */,
-				6529403B22661D5000ACD036 /* CDLDCoordinates.swift in Sources */,
 				651E93572260DD3B00ACF1D7 /* RandomUserCoreData.xcdatamodeld in Sources */,
 				651E93642260E58600ACF1D7 /* RandomUserTableViewController.swift in Sources */,
 				6518951722662F8B0070788D /* CDLD.xcdatamodeld in Sources */,
 				657941992266264C00A3AA87 /* CDLDResults.swift in Sources */,
 				651E93682260E60B00ACF1D7 /* RandomUserTableViewCell.swift in Sources */,
-				6529403F22661DC700ACD036 /* CDLDLogin.swift in Sources */,
-				6529404322661E6900ACD036 /* CDLDID.swift in Sources */,
-				6529404922661F1B00ACD036 /* CDLDLocation.swift in Sources */,
 				652E64052269FA3D00E14633 /* CDLDUserDetailsViewController.swift in Sources */,
-				6529404722661EC800ACD036 /* CDLDUser.swift in Sources */,
-				6529404522661E9100ACD036 /* CDLDPicture.swift in Sources */,
-				6529403922661CF400ACD036 /* CDLDName.swift in Sources */,
+				651741992271E070008BE67C /* User.swift in Sources */,
 				651E934F2260DD3A00ACF1D7 /* AppDelegate.swift in Sources */,
 				651E936F2260EBF200ACF1D7 /* UITableView+Xib.swift in Sources */,
-				6529403D22661D8300ACD036 /* CDLDTimezone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

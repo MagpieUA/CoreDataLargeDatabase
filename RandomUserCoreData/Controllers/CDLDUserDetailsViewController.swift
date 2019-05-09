@@ -19,6 +19,9 @@ class CDLDUserDetailsViewController: UIViewController {
     @IBOutlet weak var nationalityLabel: UILabel!
     @IBOutlet weak var stateLabel: UILabel!
     @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var phoneLabel: UILabel!
+    @IBOutlet weak var cellLabel: UILabel!
+    @IBOutlet weak var genderLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,8 +30,11 @@ class CDLDUserDetailsViewController: UIViewController {
             nameLabel.text = user.fullName
             emailLabel.text = user.email
             nationalityLabel.text = user.nationality
+            genderLabel.text = user.gender
             stateLabel.text = user.state
             cityLabel.text = user.city
+            phoneLabel.text = user.phone
+            cellLabel.text = user.cell
         }
     }
 }

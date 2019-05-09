@@ -9,5 +9,5 @@
 import Foundation
 
 struct CDLDResults: Codable {
-    var results: [CDLDUser]
+    var results: [User]
 }
